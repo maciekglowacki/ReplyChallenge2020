@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="db682dc1-6538-45bd-8852-0de69a3e861b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1YAHYqySOBCBjjupy2oVebhJTOX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="db682dc1-6538-45bd-8852-0de69a3e861b" name="Default Changelist" comment="" />
+      <created>1582378528283</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582378528283</updated>
+      <workItem from="1582378529982" duration="5000" />
+      <workItem from="1582378557050" duration="10670000" />
+      <workItem from="1582812649343" duration="114000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="890" y="274" width="1410" height="1177" key="#Vim_Emulation" timestamp="1582388506603">
+      <screen x="0" y="0" width="3200" height="1800" />
+    </state>
+    <state x="890" y="274" width="1410" height="1177" key="#Vim_Emulation/0.0.3200.1800@0.0.3200.1800" timestamp="1582388506603" />
+    <state x="654" y="107" width="1851" height="1270" key="SettingsEditor" timestamp="1582388668168">
+      <screen x="0" y="0" width="3200" height="1800" />
+    </state>
+    <state x="654" y="107" width="1851" height="1270" key="SettingsEditor/0.0.3200.1800@0.0.3200.1800" timestamp="1582388668168" />
+    <state x="929" y="547" key="com.intellij.ide.util.TipDialog" timestamp="1582812648580">
+      <screen x="0" y="0" width="3200" height="1800" />
+    </state>
+    <state x="929" y="547" key="com.intellij.ide.util.TipDialog/0.0.3200.1800@0.0.3200.1800" timestamp="1582812648580" />
+    <state x="1140" y="60" width="850" height="1125" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1582812666426">
+      <screen x="0" y="0" width="3200" height="1800" />
+    </state>
+    <state x="1140" y="60" width="850" height="1125" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.3200.1800@0.0.3200.1800" timestamp="1582812666426" />
+  </component>
+</project>

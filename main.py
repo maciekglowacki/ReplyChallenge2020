@@ -50,3 +50,9 @@ for i in range(map_height):
 
 
 
+
+
+terrain = [[points[j] for j in my_file.readline().strip()]
+     for i in range(map_height)]
+
+print(terrain[0][1])

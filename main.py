@@ -27,7 +27,26 @@ for i in range(customer_headquarters_count):
 
 for customer_headquarter in customer_headquarters:
     print(customer_headquarter)
+print(points['+'])
 
 terrain = []
+for i in range(map_height):
+    terrain.append([x for x in my_file.readline()])
+
+# terrain = [[] for i in range(map_height + 1)]
+# for i in range(map_height):
+#     for i2 in range(map_width):
+#         terrain[map_height].append([x for x in my_file.readline().split(' ')])
+
+# for i in range(map_width):
+#         terrain = list()  
+
+ 
+
+for i in range(map_height):
+    for i2 in range(map_width):
+        print(terrain[i][i2], end = '') 
+    print(" ")   
+
 
 

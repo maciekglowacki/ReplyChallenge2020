@@ -3,7 +3,8 @@ from CustomerHeadquarter import CustomerHeadquarter
 
 file_name = sys.argv[1]
 file = open(file_name, "r")
-map_width, map_height, customer_headquarters_count, reply_offices_max = [int(x) for x in file.readline().split()]
+map_width, map_height, customer_headquarters_count, reply_offices_max = [
+    int(x) for x in file.readline().split()]
 # print(map_width, map_height, customer_headquarters_count, reply_offices_max)
 
 points = {
@@ -21,11 +22,14 @@ customer_headquarters = []
 
 for i in range(customer_headquarters_count):
     x_coord, y_coord, reward = [int(x) for x in file.readline().split()]
-    customer_headquarters.append(CustomerHeadquarter(i, x_coord, y_coord, reward))
-
-#for customer_headquarter in customer_headquarters:
-#    print(customer_headquarter)
-
-terrain = []
+    customer_headquarters.append(
+        CustomerHeadquarter(i, x_coord, y_coord, reward))
 
 
+
+
+
+terrain = [[points[j] for j in file.readline().strip()]
+     for i in range(map_height)]
+
+print(terrain[0][1])

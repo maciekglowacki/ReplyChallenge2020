@@ -1,8 +1,9 @@
+
 directions: {
-    'UP',
-    'DOWN',
-    'LEFT',
-    'RIGHT'
+    'U',
+    'D',
+    'L',
+    'R'
 }
 
 
@@ -14,33 +15,32 @@ class Cell:
     def __str__(self):
         return f'X: {self.x}, Y: {self.y}'
 
-    def kurwa(self, direction):
-        if direction == 'UP':
+    def move(self, direction):
+        if direction == 'U':
             self.y -= 1
-        elif direction == 'DOWN':
+        elif direction == 'D':
             self.y += 1
-        elif direction == 'LEFT':
+        elif direction == 'L':
             self.x -= 1
-        elif direction == 'RIGHT':
+        elif direction == 'R':
             self.x += 1
 
+    def cost(self, terrain):
+        return terrain[self.x][self.y]
 
-cell = Cell(1, 2)
-print(cell)
-cell.kurwa('UP')
-print(cell)
-cell.kurwa('DOWN')
-print(cell)
-cell.kurwa('LEFT')
-print(cell)
-cell.kurwa('RIGHT')
-print(cell)
+    def reward(self, terrain, customer_headquarters):
+        for customer_headquarter in customer_headquarters:
+            if self.x == customer_headquarter.x_coord and self.y == customer_headquarter.y_coord:
+                return customer_headquarter.reward
+        return 0
 
+    
+    def path(self,terrain, directions):
+        path = 0
+        for direction in directions:
+            self.move(direction)
+            value = terrain[self.x][self.y]
+            path += value
+    
+        return path
 
-def move(cell, direction):
-    result = {
-        'UP': lambda cell: cell.y - 1,
-        'DOWN': lambda cell: cell.y + 1,
-        'LEFT': lambda cell: cell.x - 1,
-        'RIGHT': lambda cell: cell.x + 1
-    }[direction](cell)
